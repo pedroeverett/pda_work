@@ -25,7 +25,7 @@ def looper
   end
 end
  
-failures = 0 
+failures = 0
  
 if looper == 10 
   puts "looper passed"
@@ -43,7 +43,7 @@ end
  
   
 if max(100,1) == 100 
-  puts "max(100.1) passed"
+  puts "max(100,1) passed"
 else
   puts "func1(3) failed"
   failures = failures + 1
