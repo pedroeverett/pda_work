@@ -44,7 +44,7 @@ else
 end 
  
   
-if max(100,1) == 100 #should be (100.1)
+if max(100,1) == 100 
   puts "max(100,1) passed"
 else
   puts "func1(3) failed"
@@ -52,7 +52,7 @@ else
 end
 
   
-if failures #missing comparation(== or <= or >=)
+if failures 
   puts "Test Failed"
 else
   puts "Test Passed"

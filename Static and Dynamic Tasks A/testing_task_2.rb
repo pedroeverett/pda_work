@@ -42,7 +42,7 @@ else
 end 
  
   
-if max(100.1) == 100 
+if max(100,1) == 100 
   puts "max(100.1) passed"
 else
   puts "func1(3) failed"
@@ -50,7 +50,7 @@ else
 end
 
   
-if failures <= 0
+if failures
   puts "Test Failed"
 else
   puts "Test Passed"
